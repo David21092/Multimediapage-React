@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+## Multimediapage-React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+Multimediapage-React is a `Website` that allows `Users` to do `Look at CSS stuff`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+With this Calculator can you get the percentage of your coverage as well as if you are well insuranced or you're loosing money.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Prerequisites
 
-### `npm test`
+Before you begin, ensure you have met the following requirements:
+* You have a `Windows` machine. State which OS is supported/which is not.
+* You have read `this README.md`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installing this project
 
-### `npm run build`
+To install this projekt, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Windows:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* npm install
+* npm install react-router-dom
+* npm install react-faq-component
+* npm install @emailjs/browser
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Using the Dockerfile 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Download the Dockerfile
+* docker build -t <my-react-app> .
+* docker run -p 3000:3000 <my-react-app>
+  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Using Versicherungsrechner-React
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To use this, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Contributing to Versicherungsrechner-React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To contribute to Multimediapage-React, follow these steps:
 
-### Analyzing the Bundle Size
+1. Fork this repository.
+2. Create a branch: `git checkout -b master`.
+3. Make your changes and commit them: `git commit -m 'Mycommit'`
+4. Push to the original branch: `git push origin Multimediapage-React/<location>`
+5. Create the pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-### Making a Progressive Web App
+## Contributors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Thanks to the following people who have contributed to this project:
 
-### Advanced Configuration
+* [@David21092](https://github.com/davidbischof) 📖
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contact
 
-### `npm run build` fails to minify
+If you want to contact me you can reach me at <david.bischof@lernende.bbw.ch> or <bischof.david.db@gmail.com>.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
