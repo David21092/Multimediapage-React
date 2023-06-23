@@ -9,7 +9,7 @@
     
         return(
         <div>
-            <ul>
+            <ul className='navbar'>
                 <Link to='/'><li>Home</li></Link>
                 <Link to='/Rechner/Model'><li>Rechner</li></Link>
                 <Link to='/About'><li>About</li></Link>

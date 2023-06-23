@@ -24,7 +24,7 @@ function Home() {
                     }} />
                 <ParallaxLayer
                     offset={0}
-                    speed={0.2}
+                    speed={0.45}
                     style={{
                         backgroundImage: `url(${sea})`,
                         backgroundSize: 'cover',
@@ -34,7 +34,7 @@ function Home() {
 
                 <ParallaxLayer
                     offset={0}
-                    speed={0.7}
+                    speed={0.65}
                     style={{
                         backgroundImage: `url(${mountains})`,
                         backgroundSize: 'cover',
@@ -56,6 +56,14 @@ function Home() {
                         backgroundSize: 'cover',
 
                     }} />
+                                    <ParallaxLayer
+                    offset={0}
+                    speed={1}
+                    style={{
+
+                    }} >
+                    <h1 className='title'>Natural Aquatics</h1>
+                </ParallaxLayer>
                 <ParallaxLayer
                     offset={0.9999999999999}
                     speed={1}

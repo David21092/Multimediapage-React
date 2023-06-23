@@ -62,9 +62,13 @@
   }
 
   
-#test{ 
-  background-color: #210002;
-}
-#test2{ 
-  background-color:aqua
-}
+  .title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10rem; /* Adjust the font size as desired */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a drop shadow effect */
+    color: #15e6cd	 /* Sets the text color to orange */
+  }
+  
