@@ -1,10 +1,10 @@
 import React from 'react'
-import Home from './Pages/Home.jsx'
+import WrapperPage from './Pages/WrapperPage.jsx'
 
 function App () {
   return (
     <div>
-      <Home />
+      <WrapperPage />
     </div>
   )
 }
