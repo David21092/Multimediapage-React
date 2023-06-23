@@ -9,7 +9,10 @@ ul {
   position: fixed;
   top: 0;
   background-color: #17bcc7b9;
-
+  -webkit-user-select: auto; 
+  -moz-user-select: auto;     
+  -ms-user-select: auto;      
+  user-select: auto;   
 }
 
 li {
@@ -17,6 +20,11 @@ li {
   display: block;
   padding: 12px;
   float: left;
+    -webkit-user-select: auto; 
+    -moz-user-select: auto;     
+    -ms-user-select: auto;      
+    user-select: auto;   
+
 }
 
 li:hover {

@@ -1,67 +1,4 @@
-#textblock {
-    background-color: #210002;
-    height: 100vh;
-  }
-  
-  #textblock-container {
-    width: 50%;
-    margin: 0 auto;
-    padding-top: 70px;
-  }
-  
-  #textblock-title {
-    color: #ffaf1b;
-    font-size: 35px;
-    font-weight: 600;
-    font-family: "Helvetica Neue";
-  }
-  
-  #textblock-content {
-    color: #ffaf1b;
-    font-size: 20px;
-  }
-  
-  #textblock-footer {
-    color: #ffaf1b;
-    font-size: 15px;
-    font-weight: 400;
-    position: fixed;
-    width: 100%;
-    bottom: 0px;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    margin-bottom: 20px;
-  
-  }
-  
-  #textblock-devsense {
-    text-decoration: none;
-    color: #ffaf1b;
-    font-size: 15px;
-    font-weight: 600;
-  }
-  
-  .animation, .animation_layer {
-      height: 100%;
-      width: 100%
-  }
-  
-  .animation {
-    display: block;
-      position: relative;
-      z-index: 10;
-  }
-  
-  .animation_layer {
-      background-position: bottom ;
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 140%;
-      position: absolute;
-  }
 
-  
   .title {
     position: absolute;
     top: 40%;
@@ -70,5 +7,11 @@
     font-size: 10rem; /* Adjust the font size as desired */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a drop shadow effect */
     color: #15e6cd	 /* Sets the text color to orange */
+  }
+  ParallaxLayer {
+    -webkit-user-select: auto; 
+    -moz-user-select: auto;     
+    -ms-user-select: auto;      
+    user-select: auto;   
   }
   

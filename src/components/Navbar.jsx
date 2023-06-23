@@ -1,26 +1,16 @@
-/*
-    @Autors:  David Bischof
-    Version: 2.0
- */
-
-    import { Link } from 'react-router-dom'
-    import '../css/Navbar.css'
-    export default function Navbar (){
-    
-        return(
+import { Link } from 'react-router-dom'
+import React from 'react'
+import '../css/Navbar.css'
+export default function Navbar () {
+  return (
         <div>
-            <ul className='navbar'>
+            <ul>
                 <Link to='/'><li>Home</li></Link>
-                <Link to='/Rechner/Model'><li>Rechner</li></Link>
+                <Link to='/Plans'><li>Subscriptions</li></Link>
                 <Link to='/About'><li>About</li></Link>
                 <Link to='/FAQ'><li>FAQ</li></Link>
-                <Link to='/Kontakt'><li>Kontakt</li></Link>
-
-    
-    
-                
-        
+                <Link to='/Contact'><li>Kontakt</li></Link>
             </ul>
         </div>
-        )
-    }
+  )
+}

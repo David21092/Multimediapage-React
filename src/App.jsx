@@ -1,9 +1,9 @@
 import React from 'react'
-import WrapperPage from './Pages/WrapperPage.jsx'
+import WrapperPage from './Pages/Wrapperpage.jsx'
 
 function App () {
   return (
-    <div>
+    <div style={{ backgroundColor: 'black' }}>
       <WrapperPage />
     </div>
   )
