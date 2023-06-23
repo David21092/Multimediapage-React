@@ -9,7 +9,8 @@ import trees from '../images/Trees.png'
 import Image1 from '../images/Image1.jpg'
 import Navbar from '../components/Navbar'
 import Welcometext from './HomeComponents/Welcometext'
-import Imageslides from './HomeComponents/Imageslider'
+import { Sliderdata } from './HomeComponents/Sliderdata.jsx'
+import ImageSlider from './HomeComponents/Imageslider.jsx'
 
 function Home () {
   return (
@@ -93,9 +94,8 @@ function Home () {
                       backgroundColor: 'black'
 
                     }} >
-                            <Imageslides />
+                            <ImageSlider slides={Sliderdata} />
                 </ParallaxLayer>
-
             </Parallax>
 
         </div>

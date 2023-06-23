@@ -5,7 +5,6 @@ import Home from './Home.jsx'
 import { Route, Routes } from 'react-router-dom'
 import React from 'react'
 import Navbar from '../components/Navbar.jsx'
-
 export default function WrapperPage () {
   return (
         <div>
