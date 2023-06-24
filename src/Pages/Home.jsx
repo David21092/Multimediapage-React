@@ -7,6 +7,7 @@ import sea from '../images/Sea.png'
 import sky from '../images/Sky.png'
 import trees from '../images/Trees.png'
 import Image1 from '../images/Image1.jpg'
+import Image2 from '../images/Image2.jpg'
 import Navbar from '../components/Navbar'
 import Welcometext from './HomeComponents/Welcometext'
 import { Sliderdata } from './HomeComponents/Sliderdata.jsx'
@@ -16,11 +17,21 @@ function Home () {
   return (
     <div style={{ backgroundColor: 'black' }}>
 
-            <Parallax pages={5} style={{ top: '0', left: '0' }}>
+            <Parallax pages={3.5} style={{ top: '0', left: '0' }}>
 
                 <ParallaxLayer sticky={{ start: 0, end: 1 }}>
                     <Navbar />
                 </ParallaxLayer>
+                <ParallaxLayer
+                offset={2}
+                speed={-0.8}
+                style={{
+                  backgroundColor: 'black',
+                  backgroundImage: `url(${Image2})`,
+                  backgroundSize: 'cover'
+
+                }}
+                />
                 <ParallaxLayer
                     offset={0}
                     speed={0.1}
@@ -74,7 +85,8 @@ function Home () {
                 speed={0.6}
                 style={{
                   backgroundColor: 'black',
-                  backgroundImage: `url(${Image1})`
+                  backgroundImage: `url(${Image1})`,
+                  backgroundSize: 'cover'
 
                 }}
                 />
@@ -95,6 +107,15 @@ function Home () {
 
                     }} >
                             <ImageSlider slides={Sliderdata} />
+                </ParallaxLayer>
+                <ParallaxLayer
+                    offset={2.999}
+                    speed={1}
+                    style={{
+                      backgroundColor: 'black'
+
+                    }} >
+                            <div>image slider incoming</div>
                 </ParallaxLayer>
             </Parallax>
 
