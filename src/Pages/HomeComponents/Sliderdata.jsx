@@ -1,29 +1,9 @@
 export const Sliderdata = [
   {
-    image:
-        'https://cdn.pixabay.com/photo/2023/06/23/19/38/19-38-32-672_1280.jpg'
+    image: require('./Slideimages/1.jpg')
   }, {
-    image:
-        'https://cdn.pixabay.com/photo/2023/06/23/19/38/19-38-26-178_1280.jpg'
-  },
-  {
-    image:
-        'https://cdn.pixabay.com/photo/2023/06/23/19/38/19-38-26-251_1280.jpg'
-  },
-  {
-    image:
-        'https://cdn.pixabay.com/photo/2023/06/23/19/38/19-38-18-985_1280.jpg'
-  },
-  {
-    image:
-        'https://cdn.pixabay.com/photo/2023/06/23/19/38/19-38-17-165_1280.jpg'
-  },
-  {
-    image:
-        'https://cdn.pixabay.com/photo/2023/06/23/19/38/19-38-11-231_1280.jpg'
-  },
-  {
-    image:
-        'https://cdn.pixabay.com/photo/2023/06/23/19/38/19-38-10-502_1280.jpg'
+    image: require('./Slideimages/2.jpg')
+  }, {
+    image: require('./Slideimages/3.jpg')
   }
 ]
