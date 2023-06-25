@@ -12,7 +12,7 @@ import Navbar from '../components/Navbar'
 import Welcometext from './HomeComponents/Welcometext'
 import { Sliderdata } from './HomeComponents/Sliderdata.jsx'
 import ImageSlider from './HomeComponents/Imageslider.jsx'
-
+import Videoimport from './HomeComponents/Videoimport'
 function Home () {
   return (
     <div style={{ backgroundColor: 'black' }}>
@@ -24,7 +24,7 @@ function Home () {
                 </ParallaxLayer>
                 <ParallaxLayer
                 offset={2}
-                speed={-0.8}
+                speed={-0.1}
                 style={{
                   backgroundColor: 'black',
                   backgroundImage: `url(${Image2})`,
@@ -115,7 +115,7 @@ function Home () {
                       backgroundColor: 'black'
 
                     }} >
-                            <div>image slider incoming</div>
+                            <Videoimport />
                 </ParallaxLayer>
             </Parallax>
 
