@@ -69,8 +69,12 @@
 
   .video-container {
     display: flex;
+    justify-content: center;
     align-items: center;
-    height: auto;
-
+    margin-top: 100px;
+    height: 80%;
+    width: 70%;
+    margin: 0 auto;
   }
+  
   

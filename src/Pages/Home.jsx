@@ -56,6 +56,14 @@ function Home () {
                       backgroundSize: 'cover'
 
                     }} />
+                   <ParallaxLayer
+                    offset={0}
+                    speed={1}
+                    style={{
+
+                    }} >
+                    <h1 className='title'>Natural Aquatics</h1>
+                </ParallaxLayer>
                 <ParallaxLayer
                     offset={0}
                     speed={0.5}
@@ -72,14 +80,7 @@ function Home () {
                       backgroundSize: 'cover'
 
                     }} />
-                <ParallaxLayer
-                    offset={0}
-                    speed={1}
-                    style={{
 
-                    }} >
-                    <h1 className='title'>Natural Aquatics</h1>
-                </ParallaxLayer>
                 <ParallaxLayer
                 offset={1}
                 speed={0.6}
@@ -95,7 +96,6 @@ function Home () {
                     speed={1}
                     style={{
                       backgroundColor: 'black'
-
                     }} >
                             <Welcometext />
                 </ParallaxLayer>
