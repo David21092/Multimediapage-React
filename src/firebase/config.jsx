@@ -1,16 +1,8 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-undef */
-// Import the functions you need from the SDKs you need
-import { initializeApp } from 'firebase/app'
-import { getAnalytics } from 'firebase/analytics'
-import firebase from 'firebase/compat/app'
-import 'firebase/compat/storage'
-import 'firebase/compat/firestore'
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+/* eslint-disable */
+import { initializeApp } from 'firebase/app';
+import { getStorage } from 'firebase/storage';
+import { getFirestore } from 'firebase/firestore';
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: 'AIzaSyAIIp6r2v7uVqveewfFvau8F5lKgdN68jU',
   authDomain: 'multimediapage-deploy.firebaseapp.com',
@@ -21,11 +13,8 @@ const firebaseConfig = {
   measurementId: 'G-X0GSKDCG2Z'
 }
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig)
-const analytics = getAnalytics(app)
+const app = initializeApp(firebaseConfig);
+const projectStorage = getStorage(app);
+const projectFirestore = getFirestore(app);
 
-const projectStorage = firebase.storage()
-const projectFirestore = firebase.firestore()
-
-export { projectStorage, projectFirestore }
+export { projectStorage, projectFirestore };
