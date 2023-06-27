@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from './ImageGallery/Title.jsx'
 import UploadForm from './ImageGallery/UploadForm.jsx'
-function App () {
+function ImageGallery () {
   return (
     <div className="App">
       <Title/>
@@ -10,4 +10,4 @@ function App () {
   )
 }
 
-export default App
+export default ImageGallery
