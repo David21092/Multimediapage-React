@@ -1,6 +1,7 @@
 {
   "hosting": {
     "public": "build",
+        "site": "multimediapage-deploy",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -8,3 +9,4 @@
     ]
   }
 }
+

@@ -62,7 +62,7 @@ function Home () {
                     style={{
 
                     }} >
-                    <h1 className='title'>Natural Aquatics</h1>
+                    <h1 className='maintitle'>Natural Aquatics</h1>
                 </ParallaxLayer>
                 <ParallaxLayer
                     offset={0}
