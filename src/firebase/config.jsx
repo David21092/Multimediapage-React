@@ -1,10 +1,7 @@
 /* eslint-disable */
-import * as firebase from 'firebase/app'
-import { initializeApp } from 'firebase/app';
-import { getStorage } from 'firebase/storage';
-import { getFirestore } from 'firebase/firestore';
-
-var firebaseConfig = {
+import { initializeApp } from "firebase/app";
+import {getStorage} from 'firebase/storage'
+const firebaseConfig = {
   apiKey: "AIzaSyAIIp6r2v7uVqveewfFvau8F5lKgdN68jU",
   authDomain: "multimediapage-deploy.firebaseapp.com",
   projectId: "multimediapage-deploy",
@@ -14,8 +11,6 @@ var firebaseConfig = {
   measurementId: "G-X0GSKDCG2Z"
 };
 
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const projectStorage = getStorage(app);
-const projectFirestore = getFirestore(app);
-
-export { projectStorage, projectFirestore };
+export const storage = getStorage(app)

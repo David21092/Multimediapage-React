@@ -1,30 +1,29 @@
 /* eslint-disable */
 import React, { useState } from 'react'
-import ProgressBar from './Progressbar'
+import { storage } from '../../firebase/config.jsx'
+import { ref, uploadBytes } from 'firebase/storage'
+
 export default function UploadForm () {
-  const [file, setFile] = useState(null)
-  const [error, setError] = useState(null)
+
+  const [imageUpload, setImageUpload] = useState(null)
   const types = ['image/png', 'image/jpeg']
 
-  const changeHandler = (e) => {
-    let selected = e.target.files[0]
+  const uploadImage = () => {
+      if (imageUpload == null) return
+      alert("")
+        const randomString = Array.from({ length: 10 }, () => String.fromCharCode(97 + Math.floor(Math.random() * 26))).join('');
+        let imageRef = ref(storage, `images/${imageUpload.name + randomString}`)
+        uploadBytes(imageRef, imageUpload)
 
-    if (selected && types.includes(selected.type)){
-      setFile(selected)
-      setError('')
-    }else{
-      setFile(null)
-      setError('Here are only .png or .jpeg files allowed')
-    }
   }
+  
   return (
 
         <form>
-            <input type="file" onChange={changeHandler}/>
+            <input type="file" onChange={(e) => {setImageUpload(e.target.files[0])}}/>
+            <button onClick={uploadImage}>Upload your Image</button>
             <div className='output'>
-              {error && <div className='error'>{ error }</div>}
-              {file && <div>{ file.name }</div>}
-              {file && <ProgressBar file={file} setFile={setFile}/>}
+
             </div>
         </form>
   )
