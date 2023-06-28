@@ -26,6 +26,10 @@ Windows:
 * npm install react-slideshow-image
 * npm install react-comparison-slider
 * npm install @emailjs/browser
+* npm install firebase
+* npm install react-comparison-slider
+
+* npm install react-router-dom @react-spring/parallax react-icons react-slideshow-image react-comparison-slider @emailjs/browser firebase react-comparison-slider
 
 
 ## Using the Dockerfile 
