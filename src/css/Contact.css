@@ -42,3 +42,7 @@ form {
 .submitinput:hover {
   background-color: #999;
 }
+img {
+  width: 300px;
+  margin: 10px;
+}

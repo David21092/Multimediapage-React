@@ -2,7 +2,7 @@ import Home from './Home.jsx'
 import Beforefter from './Beforeafter.jsx'
 import Imagegallery from './Imagegallery.jsx'
 import Aboutus from './Aboutus.jsx'
-import Contact from './Contact'
+import Contact from './Contact.jsx'
 // import Help from '../components/FAQ';
 // import About from "./About"
 import { Route, Routes } from 'react-router-dom'

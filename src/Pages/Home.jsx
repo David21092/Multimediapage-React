@@ -1,7 +1,7 @@
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import React from 'react'
 import '../css/Home.css'
-import clouds from '../images/CloudsAndSun.png'
+import clouds from '../images/CloudsandSun.png'
 import mountains from '../images/Mountains.png'
 import sea from '../images/Sea.png'
 import sky from '../images/Sky.png'
