@@ -9,8 +9,10 @@ import {
 } from 'firebase/storage'
 import { storage } from './config'
 import { v4 } from 'uuid'
+import '../css/Imagegallery.css'
+import { FiUpload } from 'react-icons/fi';
 
-function App () {
+function Gallery () {
   const [imageUpload, setImageUpload] = useState(null)
   const [imageUrls, setImageUrls] = useState([])
 
@@ -36,19 +38,31 @@ function App () {
   }, [])
 
   return (
-    <div className="App">
-      <input
-        type="file"
-        onChange={(event) => {
-          setImageUpload(event.target.files[0])
-        }}
-      />
-      <button onClick={uploadFile}> Upload Image</button>
-      {imageUrls.map((url) => {
-        return <img src={url} />
-      })}
+    <div className="container">
+            
+<input
+  type="file"
+  id="file-input"
+  onChange={(event) => {
+    setImageUpload(event.target.files[0]);
+  }}
+/>
+<label className="custom-file-input" htmlFor="file-input">
+  Choose Image
+</label>
+{imageUpload && (
+        <button className="upload-button" onClick={uploadFile}>
+          <FiUpload className="upload-icon" />
+        </button>
+      )}
+      <h2 className="gallery-title">Image Gallery</h2>
+      <div className="image-container">
+        {imageUrls.map((url) => (
+          <img src={url} key={url} alt="Uploaded" />
+        ))}
+      </div>
     </div>
   )
 }
 
-export default App
+export default Gallery
