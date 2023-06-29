@@ -3,15 +3,14 @@ import React from 'react'
 import '../css/Navbar.css'
 export default function Navbar () {
   return (
-        <div>
-            <ul>
-                <Link to='/'><li>Home</li></Link>
-                <Link to='/Plans'><li>Subscriptions</li></Link>
-                <Link to='/gallery'><li>Gallery</li></Link>
-                <Link to='/beforeAfter'><li>Comparison</li></Link>
-                <Link to='/About'><li>About</li></Link>
-                <Link to='/FAQ'><li>FAQ</li></Link>
-                <Link to='/Contact'><li>Kontakt</li></Link>
+        <div className='navbardiv'>
+            <ul className='navbarul'>
+                <Link to='/'><li className='navbarli'>Home</li></Link>
+                <Link to='/Plans'><li className='navbarli'>Subscriptions</li></Link>
+                <Link to='/gallery'><li className='navbarli'>Gallery</li></Link>
+                <Link to='/beforeAfter'><li className='navbarli'>Comparison</li></Link>
+                <Link to='/About'><li className='navbarli'>About</li></Link>
+                <Link to='/Contact'><li className='navbarli'>Kontakt</li></Link>
             </ul>
         </div>
   )

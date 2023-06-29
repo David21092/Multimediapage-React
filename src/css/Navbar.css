@@ -1,4 +1,4 @@
-ul {
+.navbarul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -15,7 +15,7 @@ ul {
   user-select: auto;   
 }
 
-li {
+.navbarli {
   color: rgb(49, 43, 43);
   display: block;
   padding: 12px;
@@ -27,7 +27,7 @@ li {
 
 }
 
-li:hover {
+.navbarli:hover {
   background-color: #b3ffb3;
   color: black;
 }

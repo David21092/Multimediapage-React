@@ -1,0 +1,62 @@
+.plan-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 0 50px;
+  box-sizing: border-box;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/multimediapage-deploy.appspot.com/o/imagesOnTheSite%2Fblur%20(1).jpg?alt=media&token=0c7cc03f-6f83-4467-83b5-e7e47291ef63');
+  background-size: cover;
+}
+
+.plan-item {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.plan-item-left {
+  background-color: #445566;
+}
+
+.plan-item-center {
+  background-color: #b7632f;
+}
+
+.plan-item-right {
+  background-color: #dcb123;
+}
+
+.plan-item ul li:hover {
+  background-color: #555;
+}
+
+.select-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.select-button:hover {
+  background-color: #0056b3;
+}
+
+.select-button:active {
+  background-color: #003c80;
+}
+
+.plan-item ul {
+  list-style: none;
+  padding: 0;
+}

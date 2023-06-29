@@ -1,5 +1,5 @@
 import Home from './Home.jsx'
-import Beforefter from './Beforeafter.jsx'
+import ImageComparisonComponent from './Beforeafter.jsx'
 import Imagegallery from './Imagegallery.jsx'
 import Aboutus from './Aboutus.jsx'
 import Contact from './Contact.jsx'
@@ -8,17 +8,17 @@ import Contact from './Contact.jsx'
 import { Route, Routes } from 'react-router-dom'
 import React from 'react'
 import Navbar from '../components/Navbar.jsx'
+import Pricing from './Pricing.jsx'
 export default function WrapperPage () {
   return (
         <div>
           <Navbar />
             <Routes>
                 <Route path='/' element={<Home />} />
-                <Route path='/plans' element={<Navbar />} />
+                <Route path='/plans' element={<Pricing />} />
                 <Route path='/gallery' element={<Imagegallery />} />
-                <Route path='/beforeAfter' element={<Beforefter />} />
+                <Route path='/beforeAfter' element={<ImageComparisonComponent />} />
                 <Route path='/about' element={<Aboutus />} />
-                <Route path='/faq' element={<Navbar />} />
                 <Route path='/contact' element={<Contact />} />
             </Routes>
         </div>
