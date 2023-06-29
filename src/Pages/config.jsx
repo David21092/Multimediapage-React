@@ -1,16 +1,19 @@
-/* eslint-disable */
-import { initializeApp } from "firebase/app";
-import {getStorage} from 'firebase/storage'
+// Import the functions you need from the SDKs you need
+import { initializeApp } from 'firebase/app'
+import { getStorage } from 'firebase/storage'
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAIIp6r2v7uVqveewfFvau8F5lKgdN68jU",
-  authDomain: "multimediapage-deploy.firebaseapp.com",
-  projectId: "multimediapage-deploy",
-  storageBucket: "multimediapage-deploy.appspot.com",
-  messagingSenderId: "592018841413",
-  appId: "1:592018841413:web:18671f55d59af02e4c282c",
-  measurementId: "G-X0GSKDCG2Z"
-};
+  apiKey: 'AIzaSyBDnu6FmB6ySBRKSieUg6LOtBJZDOT_dPM',
+  authDomain: 'backend-multimediapage.firebaseapp.com',
+  projectId: 'backend-multimediapage',
+  storageBucket: 'backend-multimediapage.appspot.com',
+  messagingSenderId: '286683836969',
+  appId: '1:286683836969:web:8eaf093f4fd0fcbb2d6238'
+}
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig)
 export const storage = getStorage(app)

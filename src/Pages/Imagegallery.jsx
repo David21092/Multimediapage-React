@@ -24,6 +24,7 @@ function Gallery () {
       getDownloadURL(snapshot.ref).then((url) => {
         setImageUrls((prev) => [...prev, url])
       })
+      setImageUpload(null)
     })
   }
 
