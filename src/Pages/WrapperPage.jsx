@@ -11,6 +11,7 @@ import Comparison from './ComparisonShower.jsx'
 export default function WrapperPage () {
   return (
     <div>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/plans" element={<Pricing />} />
@@ -19,8 +20,6 @@ export default function WrapperPage () {
         <Route path="/about" element={<Aboutus />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Navbar />
-
     </div>
   )
 }
