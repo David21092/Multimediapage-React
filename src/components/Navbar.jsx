@@ -10,7 +10,9 @@ export default function Navbar () {
                 <Link to='/gallery'><li className='navbarli'>Gallery</li></Link>
                 <Link to='/comparison'><li className='navbarli'>Comparison</li></Link>
                 <Link to='/About'><li className='navbarli'>About</li></Link>
-                <Link to='/Contact'><li className='navbarli'>Kontakt</li></Link>
+                <Link to='/imressum'><li className='navbarli'>Impressum</li></Link>
+                <Link to='/contact'><li className='navbarli'>Kontakt</li></Link>
+
             </ul>
         </div>
   )

@@ -7,6 +7,7 @@ import Aboutus from './Aboutus.jsx'
 import Contact from './Contact.jsx'
 import Pricing from './Pricing.jsx'
 import Comparison from './ComparisonShower.jsx'
+import Impressum from './Impressum.jsx'
 
 export default function WrapperPage () {
   return (
@@ -18,6 +19,7 @@ export default function WrapperPage () {
         <Route path="/gallery" element={<Imagegallery />} />
         <Route path="/Comparison" element={<Comparison />}/>
         <Route path="/about" element={<Aboutus />} />
+        <Route path="/imressum" element={<Impressum />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>

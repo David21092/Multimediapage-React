@@ -1,0 +1,28 @@
+.impressum-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 10%;
+  }
+  
+  .impressum-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .impressum-container p {
+    margin-bottom: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 16px;
+  }
+  .impressum-container a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .impressum-container a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
