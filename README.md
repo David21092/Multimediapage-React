@@ -24,28 +24,11 @@ Windows:
 * npm install @react-spring/parallax
 * npm install react-icons
 * npm install react-slideshow-image
-* npm install react-comparison-slider
 * npm install @emailjs/browser
 * npm install firebase
-* npm install react-comparison-slider
+* npm install react-compare-slider
 
-* npm install react-router-dom @react-spring/parallax react-icons react-slideshow-image react-comparison-slider @emailjs/browser firebase react-comparison-slider
-
-
-## Using the Dockerfile 
-
-* Download the Dockerfile
-* docker build -t <my-react-app> .
-* docker run -p 3000:3000 <my-react-app>
-  
-
-## Using Versicherungsrechner-React
-
-To use this, follow these steps:
-
-
-npm start
-
+* npm install react-router-dom @react-spring/parallax react-icons react-slideshow-image react-comparison-slider @emailjs/browser firebase react-compare-slider
 
 
 ## Contributing to Versicherungsrechner-React
