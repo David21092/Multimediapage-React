@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# should not be in the git
+/src/Pages/config.jsx
+
 # testing
 /coverage
 
